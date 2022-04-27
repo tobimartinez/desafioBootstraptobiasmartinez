@@ -12,6 +12,13 @@ width: 100%;
 .imagen1{
     border-radius: 50%;
 }
+.proximamente{
+    background-color: #262626;
+    color: red;
+}
+.textoNosotros{
+    background-color: #262626;
+}
 .pie{
     background-color: #0D0D0D;
     color: white;
