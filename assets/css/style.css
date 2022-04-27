@@ -1,0 +1,18 @@
+
+.imagenFondo{
+background-image: url(../img/margarita-pizza-with-tomato-olive-basil-top-view\ \(5\).jpg);
+color: white;
+height: 450px;
+width: 100%;
+
+}
+.textoFoto{
+    padding-top: 150px;
+}
+.imagen1{
+    border-radius: 50%;
+}
+.pie{
+    background-color: #0D0D0D;
+    color: white;
+}
