@@ -1,0 +1,30 @@
+.imagen1{
+    border-radius: 50%;
+    transition: all 300ms;
+    animation-name: moviImg;
+    animation-duration: 4s;
+}
+.textoPrinci{
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+.botonCompra:hover{
+    background-color: black;
+    color: yellow;
+}
+@keyframes slidein{
+    from{
+        margin-right: 3600px;
+    }
+    to{
+        margin-right: 0%;
+    }
+}
+@keyframes moviImg{
+    to{
+        height: 375px;
+    }
+    from{
+        height: 200px;
+    }
+}

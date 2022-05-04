@@ -1,0 +1,18 @@
+@import "_animaciones.scss";
+@import "_botones.scss";
+@import "_variables.scss";
+@import "_tarjetas.scss";
+.imagenFondo{
+    height: 360px;
+    background-color: burlywood;
+    width: 100%;
+}
+.pie{
+    background-color: rgba(29, 26, 26, 0.87);
+    p{
+        color: white;
+    }
+    .iconos{
+        color: white;
+    }
+}

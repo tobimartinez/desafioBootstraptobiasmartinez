@@ -1,24 +1,61 @@
+.imagen1 {
+  border-radius: 50%;
+  transition: all 300ms;
+  animation-name: moviImg;
+  animation-duration: 4s;
+}
 
-.imagenFondo{
-background-image: url(../img/margarita-pizza-with-tomato-olive-basil-top-view\ \(5\).jpg);
-color: white;
-height: 450px;
-width: 100%;
+.textoPrinci {
+  animation-name: slidein;
+  animation-duration: 3s;
 }
-.textoFoto{
-    padding-top: 150px;
+
+.botonCompra:hover {
+  background-color: black;
+  color: yellow;
 }
-.imagen1{
-    border-radius: 50%;
+
+@keyframes slidein {
+  from {
+    margin-right: 3600px;
+  }
+  to {
+    margin-right: 0%;
+  }
 }
-.proximamente{
-    background-color: #262626;
-    color: red;
+
+@keyframes moviImg {
+  to {
+    height: 375px;
+  }
+  from {
+    height: 200px;
+  }
 }
-.textoNosotros{
-    background-color: #262626;
+
+.botonCompra {
+  width: 200px;
+  height: 40px;
+  background-color: burlywood;
+  color: white;
+  border-radius: 5px;
 }
-.pie{
-    background-color: #0D0D0D;
-    color: white;
+
+.imagenFondo {
+  height: 360px;
+  background-color: burlywood;
+  width: 100%;
 }
+
+.pie {
+  background-color: rgba(29, 26, 26, 0.87);
+}
+
+.pie p {
+  color: white;
+}
+
+.pie .iconos {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
